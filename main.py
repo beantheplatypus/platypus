@@ -2,6 +2,6 @@ print("Hello, World!")
 import os
 from pathlib import Path
 
-path = "/(root)"
+path = "./main"
 os.chdir(path)
 
