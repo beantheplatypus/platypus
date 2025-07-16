@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*CSS for 7th Grade Portfolio Web Site*/
+
+/*This rule will style the main page body*/
+body{
+    background-color:blue;
+    color: white;
+    font-family: Verdana, Hevetica, Arial, sans-serif;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+/*navigation bar*/
+
+#navigation ul{
+    list-style-type:none;
+    margin:15px;
+    padding:0;
+    overflow:hidden;
+    background-color:black;/*changes the colors for the ul*/
+}
+
+#navigation li{
+    float:left;
+    position:relative;
+    left:75px;
+    font-variant:small-caps;
+}
+
+#navigation li a{
+    text-decoration:none;
+    color:#ffffff;
+    text-align:center;
+    padding:5px 50px;
+    display:block;
+    font-family:"Times New Roman";
+    font-size:25px;
+}
+
+#Navigation li a:hover{
+    color:red; /*need to change to match your color scheme*/
+}
+
+#head_platypus{
+    float: left;
+}
